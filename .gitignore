@@ -1,0 +1,10 @@
+/bin
+/bin-int
+.vs
+
+*.log
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.swp
