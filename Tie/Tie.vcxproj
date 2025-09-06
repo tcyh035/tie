@@ -14,6 +14,7 @@
     <ClInclude Include="src\Tie.h" />
     <ClInclude Include="src\Tie\Application.h" />
     <ClInclude Include="src\Tie\Core.h" />
+    <ClInclude Include="src\Tie\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tie\Application.cpp" />
