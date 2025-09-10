@@ -19,3 +19,16 @@ namespace Tie {
     };
 }
 
+// CORE LOG MACROS
+#define TIE_CORE_TRACE(...)     ::Tie::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define TIE_CORE_INFO(...)      ::Tie::Log::GetCoreLogger()->info(__VA_ARGS__)
+#define TIE_CORE_DEBUG(...)     ::Tie::Log::GetCoreLogger()->debug(__VA_ARGS__)
+#define TIE_CORE_WARN(...)      ::Tie::Log::GetCoreLogger()->warn(__VA_ARGS__)
+#define TIE_CORE_FATAL(...)     ::Tie::Log::GetCoreLogger()->critical(__VA_ARGS__)
+
+// CLIENT LOG MACROS
+#define TIE_CLIENT_TRAGE(...)   ::Tie::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define TIE_CLIENT_INFO(...)    ::Tie::Log::GetClientLogger()->info(__VA_ARGS__)
+#define TIE_CLIENT_DEBUG(...)   ::Tie::Log::GetClientLogger()->debug(__VA_ARGS__)
+#define TIE_CLIENT_WARN(...)    ::Tie::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define TIE_CLIENT_FATAL(...)   ::Tie::Log::GetClientLogger()->critical(__VA_ARGS__)
